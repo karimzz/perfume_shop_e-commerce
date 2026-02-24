@@ -1,0 +1,63 @@
+
+
+/* Start Css */
+
+.topbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--main-color);
+    height: 36px;
+    padding: 7px 13px;
+    
+}
+
+
+.topbar .languages{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.topbar .languages .concurancy , .topbar .languages .lang{
+    display: flex;
+    align-items: center;
+    margin-inline-start: 10px;
+    gap: 8px;
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.topbar .languages .concurancy span , .topbar .languages .lang  span{
+    font-size: 6px;
+}
+
+.topbar .titles h5{
+    color: white;
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.topbar .contactus{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.topbar .contactus p a{
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+.topbar .contactus p a:focus{
+    outline: none;
+}
+
+
+
+
+/* End Css */

@@ -1,0 +1,50 @@
+
+
+/* Start Css */
+
+nav .top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 14px 24px;
+}
+
+nav .top .search-bar{
+    width: 500px;
+    height: 45px;
+    border-radius: 22px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 18px;
+}
+
+nav .top .search-bar input{
+    width: 90%;
+    border: none;
+}
+
+nav .top .search-bar input::placeholder{
+    font-size: 14px ;
+    font-weight: 100;
+    color:#898989 ;
+}
+
+nav .top .search-bar input:focus{
+    outline: none;
+}
+
+nav .top .search-bar .search-icon{
+    font-size: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+nav .top .logo img {
+    width: 240px;
+}
+
+/* End Css */

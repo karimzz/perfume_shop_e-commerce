@@ -1,0 +1,61 @@
+.home {
+  margin-top: 15px;
+}
+.home .discount-bar {
+  background-color: #FFE8F0;
+  height: 40px;
+  -webkit-box-shadow: 1px 1px 1px #EEE;
+          box-shadow: 1px 1px 1px #EEE;
+}
+.home .discount-bar .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+.home .discount-bar .container .or {
+  width: 33px;
+  height: 33px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0px 50px;
+  border-radius: 50%;
+  background-color: white;
+  border: 1px solid #EEE;
+  -webkit-box-shadow: 1px 1px 1px #EEE;
+          box-shadow: 1px 1px 1px #EEE;
+}
+.home .discount-bar .container .or p {
+  font-size: 12px;
+  font-weight: bold;
+}
+.home .discount-bar .container .dis-offer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 8px;
+}
+.home .discount-bar .container .dis-offer p {
+  font-weight: bold;
+}
+.home .discount-bar .container .dis-offer a {
+  color: var(--main-font-color);
+  font-weight: 600;
+  font-size: 14px;
+}

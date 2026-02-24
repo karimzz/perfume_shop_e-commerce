@@ -1,0 +1,57 @@
+
+
+.home {
+
+    margin-top: 15px;
+
+    .discount-bar{
+        background-color: #FFE8F0;
+        height: 40px;
+        box-shadow: 1px 1px 1px #EEE;
+
+        .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            
+            .or{
+                width: 33px;
+                height: 33px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin: 0px 50px;
+                border-radius: 50%;
+                background-color: white;
+                border: 1px solid #EEE;
+                box-shadow: 1px 1px 1px #EEE;
+                
+                p{
+                    font-size: 12px;
+                font-weight: bold;
+                }
+                
+
+            }
+
+            .dis-offer{
+                display: flex;
+                align-items: center;
+                gap: 8px;
+
+                p{
+                    font-weight: bold;
+                }
+                a{
+                    color: var(--main-font-color);
+                    font-weight: 600;
+                    font-size: 14px;
+                }
+            }
+
+        }
+
+    }
+    
+}

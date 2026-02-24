@@ -1,0 +1,48 @@
+
+
+nav {
+
+    .links{
+
+        display: flex;
+        align-items: center;
+        gap: 18px;
+
+        .link{
+            display: flex;
+            align-items: center;
+            color: var(--main-font-color);
+            text-decoration: none;
+
+            svg{
+                font-size: 25px;
+            }
+
+            p{
+                margin-inline-start: 8px;
+            }
+        }
+
+    }
+
+    .bottom{
+        .container{
+            display: flex;
+            justify-content: center;
+
+            .sub-sections{
+                display: flex;
+                align-items: center;
+                padding: 17px 0px;
+                gap: 50px;
+
+                a{
+                    text-decoration: none;
+                    color: var(--main-font-color);
+                    font-weight: 500 ;
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}

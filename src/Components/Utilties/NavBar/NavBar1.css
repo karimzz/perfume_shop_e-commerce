@@ -1,0 +1,50 @@
+nav .links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 18px;
+}
+nav .links .link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: var(--main-font-color);
+  text-decoration: none;
+}
+nav .links .link svg {
+  font-size: 25px;
+}
+nav .links .link p {
+  -webkit-margin-start: 8px;
+          margin-inline-start: 8px;
+}
+nav .bottom .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+nav .bottom .container .sub-sections {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 17px 0px;
+  gap: 50px;
+}
+nav .bottom .container .sub-sections a {
+  text-decoration: none;
+  color: var(--main-font-color);
+  font-weight: 500;
+  font-size: 15px;
+}
