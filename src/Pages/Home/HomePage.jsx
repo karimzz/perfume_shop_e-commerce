@@ -1,4 +1,8 @@
+
+import { CarouselSection } from "./../../Components/Utilties/CarouselSection/CarouselSection";
 import "./home.css";
+import React from "react";
+
 
 const HomePage = () => {
   return (
@@ -22,6 +26,9 @@ const HomePage = () => {
                 </div>
             </div>
         </div>
+
+        <CarouselSection />
+        
     </section>
   )
 }

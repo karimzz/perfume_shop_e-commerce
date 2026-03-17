@@ -1,0 +1,63 @@
+
+.embla__viewport {
+  overflow: hidden;
+}
+
+.embla__container {
+  display: flex;
+  touch-action: pan-y pinch-zoom;
+}
+
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
+
+.con-carosuel{
+  margin-top: 10px;
+
+  position: relative;
+}
+
+.con-carosuel .arrow-left,
+.con-carosuel .arrow-right{ 
+
+  font-size: 21px;
+  width: 39px;
+    height: 110px;
+  background-color: #F5F6F6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.con-carosuel .arrow-left svg,
+.con-carosuel .arrow-right svg
+{
+  color: #000000;
+}
+
+.con-carosuel .arrow-left{
+  top: 50%;
+  left: 3%;
+    transform: translate(0 , -50%);
+
+}
+
+.con-carosuel .arrow-right{
+  top: 50%;
+  right:3%;
+    transform: translate(0 , -50%);
+}
+
+.circle{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  display: block;
+  background-color: #C4C4C4;
+}
+
+.circle.active {
+  background: #000000; /* or your main color */
+}

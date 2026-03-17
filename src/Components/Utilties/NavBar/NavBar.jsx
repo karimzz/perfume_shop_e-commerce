@@ -4,6 +4,7 @@ import { CiHeart, CiSearch } from "react-icons/ci";
 import logo from "./../../../assets/logo.png"
 import { CiUser } from "react-icons/ci";
 import { IoBagOutline } from "react-icons/io5";
+import React from "react";
 
 
 
