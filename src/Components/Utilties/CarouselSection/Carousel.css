@@ -11,6 +11,11 @@
 .embla__slide {
   flex: 0 0 100%;
   min-width: 0;
+  
+}
+
+.embla__slide img {
+  width: 100%;
 }
 
 .con-carosuel{
@@ -39,14 +44,14 @@
 
 .con-carosuel .arrow-left{
   top: 50%;
-  left: 3%;
+  left: -5%;
     transform: translate(0 , -50%);
 
 }
 
 .con-carosuel .arrow-right{
   top: 50%;
-  right:3%;
+  right:-5%;
     transform: translate(0 , -50%);
 }
 

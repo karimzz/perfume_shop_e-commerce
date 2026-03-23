@@ -39,7 +39,6 @@ export function CarouselSection() {
   const goTo = (index) => emblaApi?.scrollTo(index)
   const setupSnaps = (emblaApi) => {
     setScrollSnaps(emblaApi.scrollSnapList())
-    console.log(emblaApi.scrollSnapList())
   }
 
  const scrollPrev = () => emblaApi?.scrollPrev()
@@ -51,13 +50,11 @@ export function CarouselSection() {
     if (!emblaApi) return
 
     emblaApi.plugins().autoplay?.play()
-    console.log(emblaApi.slidesInView())
         setupSnaps(emblaApi)
 
 
   const onSelect = () => {
     setSelectedIndex(emblaApi.selectedScrollSnap())
-    console.log(emblaApi.selectedScrollSnap())
   }
 
   emblaApi.on("select", onSelect)
@@ -74,9 +71,9 @@ export function CarouselSection() {
 
 
   return (
-    <div className="container">
+    
       <section  className="carouselsection con-carosuel">
-      <div className="container">
+      
         <div className="embla">
       <div className="embla__viewport" ref={emblaRef}>
         <div className="embla__container">
@@ -111,8 +108,7 @@ export function CarouselSection() {
         ))}
       </div>
     </div>
-      </div>
+      
     </section>
-    </div>
   )
 }

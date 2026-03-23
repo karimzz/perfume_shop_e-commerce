@@ -1,0 +1,118 @@
+
+
+.card-component{
+    width: 270px;
+
+    .cat-img{
+        width: 50px;
+                    -webkit-user-select: none;
+-moz-user-select: none;
+-khtml-user-select: none;
+-ms-user-select: none;
+    }
+
+    svg{
+        font-size: 22px;
+        color: #C4C4C4;
+        font-weight: 900;
+    }
+
+    .fill-heart{
+        animation: anim-fill-heart .4s ;
+        
+    }
+    .empty-heart{
+        animation:anim-empty-heart .4s ;
+    }
+
+    .image {
+        display: flex;
+        justify-content: center;
+        
+        .product-img{
+            padding:20px 0px ;
+            width: 200px;
+            -webkit-user-select: none;
+-moz-user-select: none;
+-khtml-user-select: none;
+-ms-user-select: none;
+        }
+    }
+
+    .details{
+
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -khtml-user-select: none;
+        -ms-user-select: none;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .product-name{
+            font-weight: 900;
+            font-size: 16px;
+        }
+
+        .own-by{
+            font-size: 14px;
+            color: #898989;
+        }
+
+        .brand{
+            color: black;
+            font-size: 14px;
+            margin-top: 8px;
+            font-weight: thin;
+        }
+
+        .price{
+            font-size: 14px;
+            margin-top: 12px;
+        }
+
+        
+    }
+
+    .add-btn{
+            border: 1px solid #C4C4C4;
+            border-radius: 2px;
+            text-align: center;
+            width: 100%;
+            height: 52px;
+            font-weight: 900;
+            font-size: 15px;
+            margin-top: 12px;
+        }
+
+}
+
+
+@keyframes anim-empty-heart{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+}
+
+@keyframes anim-fill-heart{
+    0%{
+        opacity: 0;
+        transform: scale(0);
+    }
+
+
+    100%{
+        opacity: 1;
+        transform: scale(1);
+    }
+    
+}
