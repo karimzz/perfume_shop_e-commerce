@@ -1,0 +1,13 @@
+.certificate-section {
+  padding: 30px 0px;
+}
+.certificate-section a img {
+  width: 100%;
+}
+.certificate-section .cards-cert {
+  margin-top: 10px;
+  gap: 10px;
+}
+.certificate-section .cards-cert a {
+  width: calc(50% - 5px);
+}

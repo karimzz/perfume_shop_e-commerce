@@ -6,6 +6,8 @@ import React, { useState } from "react";
 import ProductSwipper from "./../../Components/Utilties/ProductCarouselSection/ProductCarosuelSwipper";
 import StandardButton from "./../../Components/Utilties/StandardButton/StandardButton.jsx";
 import CategoriesProductGallery from "./../../Components/Home/CategoriesGallery/CategoriesProductGallery.jsx";
+import CertificateSection from "./../../Components/Home/CertificateSection/CertificateSection.jsx";
+
 
 import img1 from "./../../assets/images/product1.png"
 import img2 from "./../../assets/images/product2.png";
@@ -16,6 +18,11 @@ import img5 from "./../../assets/images/product5.png"
 import img6 from "./../../assets/images/product6.png";
 import img7 from "./../../assets/images/product7.png";
 import img8 from "./../../assets/images/product8.png";
+
+import img9 from "./../../assets/images/product9.png"
+import img10 from "./../../assets/images/product10.png";
+import img11 from "./../../assets/images/product11.png";
+import img12 from "./../../assets/images/product12.png";
 
 
 const HomePage = () => {
@@ -98,6 +105,45 @@ const HomePage = () => {
     
   ]);
 
+    const [products3 ] = useState([
+
+    {
+      id : 1,
+      img : img9
+    },
+    {
+      id : 2,
+      img : img10
+    },
+    {
+      id : 3,
+      img : img11
+    }
+    ,
+    {
+      id : 4,
+      img : img12
+    },
+    {
+      id : 1,
+      img : img9
+    },
+    {
+      id : 2,
+      img : img10
+    },
+    {
+      id : 3,
+      img : img11
+    }
+    ,
+    {
+      id : 4,
+      img : img12
+    },
+    
+  ]);
+
 
   return (
     <section className='home'>
@@ -142,7 +188,9 @@ const HomePage = () => {
 
             <ProductSwipper products={products2} title={"NEW ARRIVALS!"} hideSeeMoreBtn={true} />
 
+            <CertificateSection />
 
+            <ProductSwipper products={products3} title={"BEST SELLERS"} hideSeeMoreBtn={true} />
 
         </div>
         

@@ -22,7 +22,7 @@ export default function ProductSwipper({title , hideSeeMoreBtn = false , product
 
 
   return (
-    <section className="carousel my-10 h-163 ">
+    <section className="carousel my-10 h-150 ">
       <h2 className='text-center font-extrabold text-4xl title '>{title}</h2>
       <Swiper
         slidesPerView={4}
