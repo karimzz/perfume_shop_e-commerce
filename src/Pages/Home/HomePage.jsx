@@ -191,6 +191,7 @@ const HomePage = () => {
             <CertificateSection />
 
             <ProductSwipper products={products3} title={"BEST SELLERS"} hideSeeMoreBtn={true} />
+            
 
         </div>
         

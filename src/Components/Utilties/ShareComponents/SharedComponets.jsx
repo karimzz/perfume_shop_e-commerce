@@ -2,6 +2,7 @@ import React from 'react'
 import NavBar from '../NavBar/NavBar'
 import { Outlet } from 'react-router-dom'
 import TopBar from '../TopBar/TopBar'
+import Footer from '../Footer/Footer'
 
 
 const SharedComponets = () => {
@@ -10,6 +11,7 @@ const SharedComponets = () => {
         <TopBar/>
         <NavBar />
         <Outlet />
+        <Footer />
     </main>
   )
 }

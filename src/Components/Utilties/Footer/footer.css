@@ -1,0 +1,20 @@
+footer .sub-title {
+  background-color: #4D2952;
+}
+footer .sub-title .container .card {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+footer .sub-title .container .card img {
+  width: 15px;
+}
+footer .sub-title .container .card .text {
+  color: white;
+  font-size: 13px;
+}

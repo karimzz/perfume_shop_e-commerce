@@ -1,0 +1,23 @@
+
+footer{
+    .sub-title{
+        background-color: #4D2952;
+
+        .container{
+            .card{
+                padding: 10px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                img {
+                    width: 15px;
+                }
+
+                .text{
+                    color: white;
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+}
